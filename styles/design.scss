@@ -1,0 +1,32 @@
+@import "./core/base";
+@import "./core/footer";
+@import "./core/header";
+@import "/core/reset";
+
+@import "./lib/mixins";
+@import "./lib/variables";
+
+header, footer, main {
+  background-color: $rootColor;
+  color: $accentColor;  
+}
+
+* {
+  margin: $space;
+}
+
+h1{
+  font-size: large;
+}
+
+h2{
+  font-size: medium;
+}
+
+h3{
+  font-size: small;
+}
+
+a {
+  color: black;
+}
