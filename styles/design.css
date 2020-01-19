@@ -1,24 +1,24 @@
-@import "./core/base";
-@import "./core/footer";
-@import "./core/header";
-
-
-@import "./lib/mixins";
-@import "./lib/variables";
-
-main {
-  background-color: $rootColor;
-  color: $accentColor;  
+footer {
+  height: 15px;
 }
 
 header {
-  background-color: $rootColor;
-  color: $accentColor;
+  height: 20px;
+}
+
+main {
+  background-color: gray;
+  color: purple;
+}
+
+header {
+  background-color: gray;
+  color: purple;
 }
 
 footer {
-  background-color: $rootColor;
-  color: $accentColor;
+  background-color: gray;
+  color: purple;
 }
 
 ul {
@@ -26,43 +26,45 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: $rootColor;
+  background-color: gray;
 }
 
 li {
   float: left;
 }
 
-li:hover{
+li:hover {
   background-color: white;
 }
 
 li a {
   display: block;
-  color: $accentColor;
+  color: purple;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 * {
-  margin: $space;
+  margin: 2px;
 }
 
-h1{
+h1 {
   font-size: large;
 }
 
-h2{
+h2 {
   font-size: medium;
 }
 
-h3{
+h3 {
   font-size: small;
 }
 
 a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: $accentColor;
+  color: purple;
 }
+
+/*# sourceMappingURL=design.css.map */
