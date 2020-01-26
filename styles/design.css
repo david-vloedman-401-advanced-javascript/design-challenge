@@ -1,0 +1,169 @@
+footer {
+  height: 15px;
+}
+
+header {
+  height: 20px;
+}
+
+main {
+  background-color: gray;
+  color: purple;
+}
+
+header {
+  background-color: gray;
+  color: purple;
+}
+
+footer {
+  background-color: gray;
+  color: purple;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li:hover {
+  background-color: white;
+}
+
+li a {
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+* {
+  margin: 2px;
+}
+
+h1 {
+  font-size: large;
+}
+
+h2 {
+  font-size: medium;
+}
+
+h3 {
+  font-size: small;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: purple;
+}
+
+.sendMessage {
+  max-width: 450px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.sendMessage label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sendMessage label > span {
+  float: left;
+  width: 100px;
+  color: #F072A9;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.sendMessage fieldset {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #FFD2D2;
+  padding: 20px;
+  background: #FFF4F4;
+  box-shadow: inset 0px 0px 15px #FFE5E5;
+  -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+  -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+.sendMessage fieldset legend {
+  color: #FFA0C9;
+  border-top: 1px solid #FFD2D2;
+  border-left: 1px solid #FFD2D2;
+  border-right: 1px solid #FFD2D2;
+  border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  background: #FFF4F4;
+  padding: 0px 8px 3px 8px;
+  box-shadow: 0px -1px 2px #F1F1F1;
+  -moz-box-shadow: 0px -1px 2px #F1F1F1;
+  -webkit-box-shadow: 0px -1px 2px #F1F1F1;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.sendMessage textarea {
+  width: 250px;
+  height: 100px;
+}
+
+.sendMessage input[type=text],
+.sendMessage input[type=date],
+.sendMessage input[type=datetime],
+.sendMessage input[type=number],
+.sendMessage input[type=search],
+.sendMessage input[type=time],
+.sendMessage input[type=url],
+.sendMessage input[type=email],
+.sendMessage select,
+.sendMessage textarea {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border: 1px solid #FFC2DC;
+  outline: none;
+  color: #F072A9;
+  padding: 5px 8px 5px 8px;
+  box-shadow: inset 1px 1px 4px #FFD5E7;
+  -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+  -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+  background: #FFEFF6;
+  width: 50%;
+}
+
+.sendMessage input[type=submit],
+.sendMessage input[type=button] {
+  background: #EB3B88;
+  border: 1px solid #C94A81;
+  padding: 5px 15px 5px 15px;
+  color: #FFCBE2;
+  box-shadow: inset -1px -1px 3px #FF62A7;
+  -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+  -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+  border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-weight: bold;
+}
+
+.required {
+  color: red;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=design.css.map */
